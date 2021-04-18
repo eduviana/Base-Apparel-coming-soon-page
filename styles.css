@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Josefin Sans;
+}
+body {
+  background-image: linear-gradient(
+    135deg,
+    hsla(0, 80.3%, 86.1%, 0.05),
+    hsla(0, 74.2%, 74.1%, 0.1)
+  );
+}
+@media only screen and (min-width: 375px) {
+  .logo {
+    width: 100%;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 23px;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+  }
+  .titulo {
+    width: 215px;
+    text-align: center;
+    margin: 50px auto 0px auto;
+  }
+
+  /* este es el h1 */
+  .title {
+    font-weight: 300;
+    font-size: 35px;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 3px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  /* este es el h2 */
+  .subtitle {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    color: hsl(0, 6%, 24%);
+  }
+
+  .texto {
+    color: hsl(0, 36%, 70%);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding: 25px;
+  }
+
+  button[type="submit"] {
+    width: 61px;
+    height: 50px;
+    border-radius: 23px 22px;
+    background-image: linear-gradient(
+      135deg,
+      hsl(0, 80%, 86%),
+      hsl(0, 74%, 74%)
+    );
+    position: absolute;
+    right: 14px;
+    border: 1px solid hsl(0, 80%, 86%);
+  }
+
+  #input {
+    width: 225px;
+    height: 46px;
+    border-radius: 50px 50px;
+    border: 1px solid hsl(0, 80%, 86%);
+    padding-left: 12px;
+  }
+
+  form {
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .box {
+    width: 55%;
+    position: relative;
+  }
+  .logo {
+    width: 180px;
+    display: inline;
+    position: absolute;
+    top: 0px;
+  }
+
+  .img {
+    width: 415px;
+    position: absolute;
+    right: 0;
+    height: 468px;
+  }
+
+  .img__desktop {
+    background-image: url(./images/hero-desktop.jpg);
+    width: 415px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .main {
+    width: 100%;
+    height: 512px;
+  }
+  .contenedor__gigante {
+    position: relative;
+    width: 70%;
+    height: 600px;
+    margin: 50px auto;
+  }
+  .titulo {
+    margin: 7px 7px 6px 32px;
+    height: 138px;
+  }
+
+  form {
+    margin: 7px 1px 11px 28px;
+  }
+
+  .title {
+    text-align: left;
+    font-weight: 300;
+    font-size: 50px;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 10px;
+    margin-top: 171px;
+  }
+
+  .subtitle {
+    letter-spacing: 16px;
+    text-align: left;
+  }
+
+  .texto {
+    padding: 20px 120px 40px 32px;
+    text-align: left;
+    line-height: 24px;
+  }
+}

@@ -41,14 +41,14 @@ Los usuarios deben poder:
 
 ### Lo-que-aprendí
 
-Seleccionar elementos por atributos: button[type="submit"] {}.
-Cambiar los estilos de el atributo placeholder con su pseudo-clase: #input::placeholder{}.
-Utilizar la propiedad z-index para que la imágen utilizada de fondo quede en una capa por debajo del contenido de la página.
+- Seleccionar elementos por atributos: button[type="submit"] {}.
+- Cambiar los estilos de el atributo placeholder con su pseudo-clase: #input::placeholder{}.
+- Utilizar la propiedad z-index para que la imágen utilizada de fondo quede en una capa por debajo del contenido de la página.
  
 
 ### Desarrollo-continuo
 
-Falta hacer validacion en el formulario.
+- Falta hacer validacion en el formulario.
 
 
 ### Recursos-utiles
